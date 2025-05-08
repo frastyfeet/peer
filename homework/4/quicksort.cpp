@@ -44,9 +44,9 @@ void qsortRecursive(int *mas, int size) {
 }
 
 int main() {
-  int arr[10] = {1,2,8,9,5,6,10,3,4,7};
-  qsortRecursive(arr,10);
-  for(int elem : arr){
+  int arr[10] = {1, 2, 8, 9, 5, 6, 10, 3, 4, 7};
+  qsortRecursive(arr, 10);
+  for (int elem : arr) {
     std::cout << elem << " ";
   }
 }
